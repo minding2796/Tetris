@@ -21,7 +21,7 @@ public class Tetris {
 			while (true) {
 				Painter.updateScreen(getScreen(), getGame());
 				try {
-					Thread.sleep(50L);
+					Thread.sleep(10L);
 				} catch (InterruptedException ignored) {
 				}
 			}
